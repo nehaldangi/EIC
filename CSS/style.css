@@ -1,0 +1,239 @@
+.nav-link {
+    font-size: 0.9375rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    /* color: black !important; */
+    /* letter-spacing: 1px; */
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #a30202 !important;
+}
+
+.navbar1-brand {
+    width: 50%;
+}
+
+/* btn focus */
+/* .navbar-toggler:focus {
+    outline: unset;
+    border: unset;
+    box-shadow: none;
+} */
+.navbar1-dark .navbar1-toggler {
+    border: 0px !important;
+}
+
+.navbar1-dark .navbar1-toggler:focus {
+    outline: unset;
+    border: unset;
+    box-shadow: none;
+}
+
+.navbar1 {
+    transition: all 1s;
+    z-index: 1000;
+    -webkit-transition: all 0.3s ease-out;
+    /* transition: all 0.3s ease-out; */
+    padding: 0 0.625rem;
+    transition: all 200ms linear;
+}
+
+.navbar1-scrolled {
+    background-color: black;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+.carousel-caption {
+    bottom: 12.25rem !important;
+
+    font-family: cursive !important;
+}
+
+.btn {
+    /* background-color: ghostwhite !important; 
+    border-radius: 34px !important; */
+    border: 1px solid #a30202 !important;
+    color: white !important;
+    display: inline-block !important;
+    margin-top: 20px;
+    border-radius: 5px;
+    position: relative !important;
+    z-index: 1 !important;
+}
+
+.btn:hover {
+    color: black !important;
+    border-radius: 34px !important;
+    text-decoration: none;
+}
+
+.btn:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #a30202;
+    transition: 0.5s;
+    z-index: -1;
+}
+
+.btn:hover:before {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    border-radius: 34px !important;
+}
+
+/* Photo Banner */
+
+
+#container3 {
+    background-color: black;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+.photobanner3 {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: bannermove 3s linear infinite;
+}
+
+.photobanner3 img {
+    margin: 0 0.5em
+}
+
+@keyframes bannermove {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(-50%, 0);
+    }
+}
+
+
+
+/* @media screen and (max-width: 600px) {
+    #container3 {
+      visibility: hidden;
+      clear: both;
+      float: left;
+      margin: 10px auto 5px 20px;
+      width: 28%;
+      display: none;
+    }
+  }
+   */
+
+/* Hide client list in Desktop  */
+/* @media screen and (min-width: 600px) {
+    div.containerlogo {
+      visibility: hidden;
+      clear: both;
+      float: left;
+      margin: 10px auto 5px 20px;
+      width: 28%;
+      display: none;
+    }
+  }
+   */
+
+.section-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    text-transform: capitalize;
+    margin: 5px;
+}
+
+/* About Us */
+
+.about-us {
+    padding: 60px 0;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+
+.about-img img {
+    border: 1px solid #000;
+    padding: 5px;
+    border-radius: 50%;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.3);
+    height: 430px !important;
+}
+
+.about-sub-heading h5 {
+    color: #a30202;
+}
+
+.about-content h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    margin-bottom: 30px;
+    color: #6e6e6e;
+}
+
+.about-sub i {
+    width: 40px;
+    height: 40px;
+    background-color: #a30202;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+
+    margin-right: 10px;
+}
+
+.about-sub i h6 {
+    font-size: 18px;
+}
+
+.btn1 {
+    padding: 12px 40px;
+    border: 1px solid #a30202;
+    color: #000;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+}
+
+.btn1:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+a.btn1:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #a30202;
+    transition: 0.5s;
+    z-index: -1;
+}
+
+a.btn1:hover:before {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
